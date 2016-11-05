@@ -10,7 +10,8 @@ def miniCalck (x,y,z):
 		c = x / y
 	else 
 		print('error baka')
-	return '%+2f' c
+	c1 = round(c,2)
+	return  c1
 x = float(input("Enter your value 1:" ))
 y = float(input("Enter your value 2:" ))
 z = input("Enter your symbal:" )
