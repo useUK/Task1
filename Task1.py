@@ -2,11 +2,11 @@ def miniCalck (x,y,z):
 	float c
 	if z == "+":
 		c = x + y
-	if z == "-":
+	elif z == "-":
 		c = x - y 
-	if z == "*":
+	elif z == "*":
 		c = x * y
-	if z == "/":
+	elif z == "/":
 		c = x / y
 	else 
 		print('error baka')
