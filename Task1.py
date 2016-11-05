@@ -1,15 +1,19 @@
 def miniCalck (x,y,z):
-	float c
 	if z == "+":
 		c = x + y
-	if z == "-":
+	elif z == "-":
 		c = x - y 
-	if z == "*":
+	elif z == "*":
 		c = x * y
-	if z == "/":
+	elif z == "/":
 		c = x / y
 	else 
 		print('error baka')
 	return c
-	
+х = int(input("Enter your value 1:" )
+y = int(input("Enter your value 2:" )
+z = input("Enter your value 1:" )
+Answer = miniCalck (x,y,z)
+print(" Your answer = ", Answer) 
+
 
