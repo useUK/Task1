@@ -2,7 +2,7 @@ def hightYear (x):
 	if (x // 4) != 0:  
 		if (x // 100) != 0:
 			if (x // 400) != 0:
-				return ('год не високосний')
+				return ('str(x) - не високосний') ## return (x '- не висококосний')
 	else:
 		return ('Fail') 	 
 	
